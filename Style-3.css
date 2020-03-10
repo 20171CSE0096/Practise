@@ -3,20 +3,31 @@ p.one
 		border-style:solid;
 		border-width:medium;
 		border-color:red;
+		margin:auto;
+		width:100px;
 	}
 
 p.two
 	{
-		border-style:dotted dashed double solid;
+		border-style:dotted dashed double groove;
 		border-width:2px 10px 4px 20px;
-		border-color:red green yellow blue;
+		border-color:red green cyan blue;
+		margin:25px 30px 35px 40px;
 	}
 	
 
 p.three
 	{
-		border-style:dashed double;
-		border-width:10px 20px;
+		border-style:dotted outset;
+		border-width:30px 20px;
 		border-color:red blue;
+		padding:25px 30px 35px 40px;
 	}
 
+img
+	{
+		border:10px solid red;
+		height:300px;
+		width:300px;
+		opacity:0.99;
+	}
